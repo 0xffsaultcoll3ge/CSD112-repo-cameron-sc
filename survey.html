@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Cameron">
+	<meta name="description" content="Cam's personal webpage">
+	<title>CSD112 - Cameron Barbeau</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+	<div class="width-wrap">
+		<header id="top">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a href="glossary.html">Glossary</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Survey</h1>
+			<form action="https://formspree.io/f/meqbpdnj" method="POST" id="survey">
+				<p>
+					<label for="name_field">Name: <abbr title="required" aria-label="required">*</abbr></label>
+					<input type="text" name="name_field" id="name_field" required>
+				</p>
+				<p>
+					<label for="email_field">Email: <abbr title="required" aria-label="required">*</abbr></label>
+					<input type="email_field" name="email_field" id="email_field" required>
+				</p>
+				<p>
+					<label for="best_whole_number">Which whole number is best </label>
+					<input type="number" id="best_whole_number" name="best_whole_number">
+				</p>
+				<p>
+					<label for="best_day">Which day is best?</label>
+					<input type="date" id="best_day" name="best_day">
+				</p>
+				<p>
+					<label for="best_bear">Which bear is best? <abbr title="require" aria-label="required">*</abbr></abbr></label>
+					<select id="best_bear" name="best_bear" required>
+						<option value="">&nbsp</option>
+						<option value="Black">Black</option>
+						<option value="Brown">Brown</option>
+						<option value="Care">Care</option>
+						<option value="Panda">Panda</option>
+						<option value="Polar">Polar</option>
+						<option value="Teddy">Teddy</option>
+					</select>
+				</p>
+
+				<fieldset>
+					<legend>Do you like radio buttons?</legend>
+					<ul>
+						<li>
+							<label for="yes_option">
+								<input type="radio" id="yes_option" name="radio_buttons" value="yes">Yes
+							</label>
+						</li>
+						<li>
+							<label for="no_option">
+								<input type="radio" id="no_option" name="radio_buttons" value="no">No
+							</label>
+						</li>
+						<li>
+							<label for="maybe_option">
+								<input type="radio" id="maybe_option" name="radio_buttons" value="?" checked>None of your business
+							</label>
+						</li>
+					</ul>
+				</fieldset>
+				<p>
+					<label for="life_meaning">What is the meaning of life?</label>
+					<textarea id="life_meaning" name="life_meaning" rows="5" cols="50" placeholder="Enter the correct answer here"></textarea>
+				</p>
+				<button type="submit">Send</button>
+
+			</form>
+		</main>
+		<footer>
+			<hr>
+			<blockquote>Beware that, when fighting monsters, you yourself do not become a monster... for when you gaze long into the abyss. The abyss gazes also into you.</blockquote>
+			<code>&#8212;</code><em>Fredrich Nietzsche</em>
+			<picture>
+				<source type="image/svg+xml" srcset="images/sc-logo.svg">
+				<img src="images/sc-logo.png" alt="Sault College Logo" width="70"
+				srcset="images/sc-logo_105.png 1.5x, images/sc-logo_140.png 2x">
+			</picture>
+		</footer>
+		
+		<a href="#top">◤ Back to the top</a>
+	</div>
+</body>
+		
